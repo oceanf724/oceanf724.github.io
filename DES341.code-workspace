@@ -3,13 +3,7 @@
 		{
 			"name": "DES341",
 			"path": "../../../Desktop/DES341"
-		},
-		{
-			"name": "oceanf724.github.io",
-			"path": "."
 		}
 	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "oceanf724.github.io"
-	}
+	"settings": {}
 }
