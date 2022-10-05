@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+main, header {
+    width: 80%;
+    margin: 30px auto;
+}
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+h3 {
+    font-size: 20px;
+}
+.gallery1 div {
+    flex: 1;
+}
+
+main {
+    background-color: rgb(167, 167, 249);
+    border: solid rgb(79, 3, 150) 5px;
+    padding: 20px;
+}
+.news {
+    display: flex;
+    margin-bottom: 40px;
+}
+.news .left {
+    flex: 3;
+}
+.news .right {
+    flex: 3;
+}
+
+div img {
+    width: 100%;
+    border: solid rgb(79, 3, 150) 1px;
+}
+
+.gallery1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery2 div {
+    flex: 25%;
+}
