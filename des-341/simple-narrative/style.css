@@ -9,3 +9,6 @@ div {
     padding: 15px;
     margin: 100px;
 }
+.rotate180 {
+    transform: rotate(180deg);
+}
