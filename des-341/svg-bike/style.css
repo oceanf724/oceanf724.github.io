@@ -36,7 +36,7 @@ body {
 transform: rotateX(0deg);
     }
     to{
-        transform: rotateX(20deg)
+        transform: rotateX(20deg);
     }
 }
 
