@@ -14,13 +14,8 @@ body {
     transform-box: fill-box;
 }
 #woman-bike {
-    animation: bike 1s ease-in-out infinite;
+    animation: bike 0.7s ease-in-out infinite alternate;
     transform-origin: bottom;
-}
-#hair{
-    animation: hair 1s ease infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
 }
 @keyframes wheel{
     from{
@@ -36,15 +31,6 @@ body {
 transform: rotateX(0deg);
     }
     to{
-        transform: rotateX(20deg);
-    }
-}
-
-@keyframes hair{
-    from{
-        transform: translateY(20%);
-    }
-    to{
-        transform: translateY(50%);
+        transform: rotateX(15deg);
     }
 }
